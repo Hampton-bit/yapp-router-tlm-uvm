@@ -1,0 +1,1566 @@
+xrun(64): 23.09-s006: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.09-s006: Started on Jul 04, 2025 at 20:04:29 PKT
+xrun
+	-f file.f
+		-64
+		-uvmhome /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d
+		+UVM_VERBOSITY=UVM_LOW
+		-timescale 1ns/1ps
+		+UVM_TESTNAME=test_mcseq
+		-incdir ../../yapp/sv
+		-incdir ../../channel/sv
+		-incdir ../../hbus/sv
+		-incdir ../../clock_and_reset/sv
+		-incdir ../../task1_tlm_export/sv
+		../../yapp/sv/yapp_pkg.sv
+		../sv/router_module.sv
+		../../channel/sv/channel_pkg.sv
+		../../hbus/sv/hbus_pkg.sv
+		../../clock_and_reset/sv/clock_and_reset_pkg.sv
+		tb_top.sv
+		hw_top.sv
+		../../yapp/sv/yapp_if.sv
+		../../channel/sv/channel_if.sv
+		../../hbus/sv/hbus_if.sv
+		../../clock_and_reset/sv/clock_and_reset_if.sv
+		clkgen.sv
+		../../router_rtl/yapp_router.sv
+		+define+UVM_NO_DEPRECATED
+	-access +rwc
+	-uvm
+	+SVSEED=random
+	-covdut tb_top
+	-coverage U
+
+   User defined plus("+") options:
+	+UVM_VERBOSITY=UVM_LOW
+
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+Recompiling... reason: unable to stat '/./home/cc/Downloads/1.UVM/labs/NCDC_DV_Lab_42/Lab 42 files/channel/sv/channel_env.sv'.
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d
+DEFINE std       ./STD
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 15
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		$unit_0x1b99af53
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		yapp_pkg
+		hbus_pkg
+		channel_pkg
+		clock_and_reset_pkg
+		router_module
+		tb_top
+	Building instance overlay tables: .................... Done
+	Enabling instrumentation for coverage types: functional
+	Building instance specific data structures.
+xmelab: *W,CGPIDF: Covergroup "per_instance" option , by default, is set as 0.
+xmelab: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       9       7
+		Interfaces:                    6       4
+		Verilog packages:              9       9
+		Resolved nets:                 0       1
+		Registers:                 18933   11637
+		Scalar wires:                 63       -
+		Vectored wires:               34       -
+		Named events:                  5      13
+		Always blocks:                20      16
+		Initial blocks:              481     221
+		Parallel blocks:              35      36
+		Cont. assignments:            20      42
+		Pseudo assignments:           27       -
+		Assertions:                    3       3
+		Covergroup Instances:          0       2
+		Compilation units:             1       1
+		SV Class declarations:       265     379
+		SV Class specializations:    584     584
+		Process Clocks:               14       4
+		Simulation timescale:        1ps
+	Writing initial simulation snapshot: worklib.tb_top:sv
+DEFINE std       ./STD
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+Loading snapshot worklib.tb_top:sv .................... Done
+SVSEED set randomly from command line: 1014783788
+xcelium> source /home/cc/mnt/XCELIUM2309/tools/xcelium/files/xmsimrc
+xcelium> source /home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (23.09-s006)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'router_scoreboard' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_INFO @ 0: reporter [RNTST] Running test test_mcseq...
+UVM_INFO router_test_lib.sv(16) @ 0: uvm_test_top [test] build phase of the test is being executed
+UVM_INFO ../../yapp/sv/yapp_tx_driver.sv(11) @ 0: uvm_test_top.env_top.env.agent.driver [yapp_tx_driver] You are in the driver
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+--------------------------------------------------------------------------
+Name                           Type                       Size  Value     
+--------------------------------------------------------------------------
+uvm_test_top                   test_mcseq                 -     @2957     
+  env_top                      router_tb                  -     @2990     
+    C0                         channel_env                -     @3166     
+      rx_agent                 channel_rx_agent           -     @4251     
+        driver                 channel_rx_driver          -     @4952     
+          rsp_port             uvm_analysis_port          -     @5103     
+            recording_detail   integral                   32    'd1       
+          seq_item_port        uvm_seq_item_pull_port     -     @5054     
+            recording_detail   integral                   32    'd1       
+          channel_id           integral                   32    'h0       
+          recording_detail     integral                   32    'd1       
+        monitor                channel_rx_monitor         -     @4242     
+          item_collected_port  uvm_analysis_port          -     @4338     
+            recording_detail   integral                   32    'd1       
+          channel_id           integral                   32    'h0       
+          checks_enable        integral                   1     'h1       
+          coverage_enable      integral                   1     'h1       
+          recording_detail     integral                   32    'd1       
+        sequencer              channel_rx_sequencer       -     @4368     
+          rsp_export           uvm_analysis_export        -     @4423     
+            recording_detail   integral                   32    'd1       
+          seq_item_export      uvm_seq_item_pull_imp      -     @4973     
+            recording_detail   integral                   32    'd1       
+          recording_detail     integral                   32    'd1       
+          arbitration_queue    array                      0     -         
+          lock_queue           array                      0     -         
+          num_last_reqs        integral                   32    'd1       
+          num_last_rsps        integral                   32    'd1       
+        is_active              uvm_active_passive_enum    1     UVM_ACTIVE
+        recording_detail       integral                   32    'd1       
+      channel_id               integral                   32    'h0       
+      checks_enable            integral                   1     'h1       
+      coverage_enable          integral                   1     'h1       
+      recording_detail         integral                   32    'd1       
+    C1                         channel_env                -     @3127     
+      rx_agent                 channel_rx_agent           -     @5157     
+        driver                 channel_rx_driver          -     @5844     
+          rsp_port             uvm_analysis_port          -     @5989     
+            recording_detail   integral                   32    'd1       
+          seq_item_port        uvm_seq_item_pull_port     -     @5941     
+            recording_detail   integral                   32    'd1       
+          channel_id           integral                   32    'h1       
+          recording_detail     integral                   32    'd1       
+        monitor                channel_rx_monitor         -     @5154     
+          item_collected_port  uvm_analysis_port          -     @5241     
+            recording_detail   integral                   32    'd1       
+          channel_id           integral                   32    'h1       
+          checks_enable        integral                   1     'h1       
+          coverage_enable      integral                   1     'h1       
+          recording_detail     integral                   32    'd1       
+        sequencer              channel_rx_sequencer       -     @5221     
+          rsp_export           uvm_analysis_export        -     @5324     
+            recording_detail   integral                   32    'd1       
+          seq_item_export      uvm_seq_item_pull_imp      -     @5864     
+            recording_detail   integral                   32    'd1       
+          recording_detail     integral                   32    'd1       
+          arbitration_queue    array                      0     -         
+          lock_queue           array                      0     -         
+          num_last_reqs        integral                   32    'd1       
+          num_last_rsps        integral                   32    'd1       
+        is_active              uvm_active_passive_enum    1     UVM_ACTIVE
+        recording_detail       integral                   32    'd1       
+      channel_id               integral                   32    'h1       
+      checks_enable            integral                   1     'h1       
+      coverage_enable          integral                   1     'h1       
+      recording_detail         integral                   32    'd1       
+    C2                         channel_env                -     @3195     
+      rx_agent                 channel_rx_agent           -     @6041     
+        driver                 channel_rx_driver          -     @6728     
+          rsp_port             uvm_analysis_port          -     @6873     
+            recording_detail   integral                   32    'd1       
+          seq_item_port        uvm_seq_item_pull_port     -     @6825     
+            recording_detail   integral                   32    'd1       
+          channel_id           integral                   32    'h2       
+          recording_detail     integral                   32    'd1       
+        monitor                channel_rx_monitor         -     @6038     
+          item_collected_port  uvm_analysis_port          -     @6125     
+            recording_detail   integral                   32    'd1       
+          channel_id           integral                   32    'h2       
+          checks_enable        integral                   1     'h1       
+          coverage_enable      integral                   1     'h1       
+          recording_detail     integral                   32    'd1       
+        sequencer              channel_rx_sequencer       -     @6105     
+          rsp_export           uvm_analysis_export        -     @6208     
+            recording_detail   integral                   32    'd1       
+          seq_item_export      uvm_seq_item_pull_imp      -     @6748     
+            recording_detail   integral                   32    'd1       
+          recording_detail     integral                   32    'd1       
+          arbitration_queue    array                      0     -         
+          lock_queue           array                      0     -         
+          num_last_reqs        integral                   32    'd1       
+          num_last_rsps        integral                   32    'd1       
+        is_active              uvm_active_passive_enum    1     UVM_ACTIVE
+        recording_detail       integral                   32    'd1       
+      channel_id               integral                   32    'h2       
+      checks_enable            integral                   1     'h1       
+      coverage_enable          integral                   1     'h1       
+      recording_detail         integral                   32    'd1       
+    c_n_r_env                  clock_and_reset_env        -     @3255     
+      agent                    clock_and_reset_agent      -     @6924     
+        driver                 clock_and_reset_driver     -     @6955     
+          rsp_port             uvm_analysis_port          -     @7056     
+            recording_detail   integral                   32    'd1       
+          seq_item_port        uvm_seq_item_pull_port     -     @7005     
+            recording_detail   integral                   32    'd1       
+          recording_detail     integral                   32    'd1       
+        sequencer              clock_and_reset_sequencer  -     @7035     
+          rsp_export           uvm_analysis_export        -     @7143     
+            recording_detail   integral                   32    'd1       
+          seq_item_export      uvm_seq_item_pull_imp      -     @7691     
+            recording_detail   integral                   32    'd1       
+          recording_detail     integral                   32    'd1       
+          arbitration_queue    array                      0     -         
+          lock_queue           array                      0     -         
+          num_last_reqs        integral                   32    'd1       
+          num_last_rsps        integral                   32    'd1       
+        recording_detail       integral                   32    'd1       
+      recording_detail         integral                   32    'd1       
+    env                        yapp_env                   -     @3098     
+      agent                    yapp_tx_agent              -     @7739     
+        driver                 yapp_tx_driver             -     @7852     
+          rsp_port             uvm_analysis_port          -     @7952     
+            recording_detail   integral                   32    'd1       
+          seq_item_port        uvm_seq_item_pull_port     -     @7901     
+            recording_detail   integral                   32    'd1       
+          recording_detail     integral                   32    'd1       
+        monitor                yapp_tx_monitor            -     @7774     
+          yapp_out             uvm_analysis_port          -     @7822     
+            recording_detail   integral                   32    'd1       
+          recording_detail     integral                   32    'd1       
+        sequencer              yapp_tx_sequencer          -     @7982     
+          rsp_export           uvm_analysis_export        -     @8037     
+            recording_detail   integral                   32    'd1       
+          seq_item_export      uvm_seq_item_pull_imp      -     @8585     
+            recording_detail   integral                   32    'd1       
+          recording_detail     integral                   32    'd1       
+          arbitration_queue    array                      0     -         
+          lock_queue           array                      0     -         
+          num_last_reqs        integral                   32    'd1       
+          num_last_rsps        integral                   32    'd1       
+        is_active              uvm_active_passive_enum    1     UVM_ACTIVE
+        recording_detail       integral                   32    'd1       
+      recording_detail         integral                   32    'd1       
+    h_b                        hbus_env                   -     @3225     
+      masters[0]               hbus_master_agent          -     @8717     
+        driver                 hbus_master_driver         -     @9334     
+          rsp_port             uvm_analysis_port          -     @9485     
+            recording_detail   integral                   32    'd1       
+          seq_item_port        uvm_seq_item_pull_port     -     @9436     
+            recording_detail   integral                   32    'd1       
+          random_delay         integral                   1     'h0       
+          master_id            integral                   32    'h0       
+          recording_detail     integral                   32    'd1       
+        sequencer              hbus_master_sequencer      -     @8749     
+          rsp_export           uvm_analysis_export        -     @8807     
+            recording_detail   integral                   32    'd1       
+          seq_item_export      uvm_seq_item_pull_imp      -     @9355     
+            recording_detail   integral                   32    'd1       
+          recording_detail     integral                   32    'd1       
+          arbitration_queue    array                      0     -         
+          lock_queue           array                      0     -         
+          num_last_reqs        integral                   32    'd1       
+          num_last_rsps        integral                   32    'd1       
+        monitor                hbus_monitor               -     @8636     
+        is_active              uvm_active_passive_enum    1     UVM_ACTIVE
+        master_id              integral                   32    'h0       
+        recording_detail       integral                   32    'd1       
+      monitor                  hbus_monitor               -     @8636     
+        item_collected_port    uvm_analysis_port          -     @8685     
+          recording_detail     integral                   32    'd1       
+        checks_enable          integral                   1     'h1       
+        coverage_enable        integral                   1     'h1       
+        recording_detail       integral                   32    'd1       
+      num_masters              integral                   32    'h1       
+      num_slaves               integral                   32    'h0       
+      checks_enable            integral                   1     'h1       
+      coverage_enable          integral                   1     'h1       
+      recording_detail         integral                   32    'd1       
+    r_mcseqr                   router_mcsequencer         -     @3287     
+      rsp_export               uvm_analysis_export        -     @3373     
+        recording_detail       integral                   32    'd1       
+      seq_item_export          uvm_seq_item_pull_imp      -     @3923     
+        recording_detail       integral                   32    'd1       
+      recording_detail         integral                   32    'd1       
+      arbitration_queue        array                      0     -         
+      lock_queue               array                      0     -         
+      num_last_reqs            integral                   32    'd1       
+      num_last_rsps            integral                   32    'd1       
+    router_module_env          router_module_env          -     @3902     
+      r_ref                    router_reference           -     @9780     
+        hbus_in                uvm_analysis_imp_hbus      -     @9878     
+          recording_detail     integral                   32    'd1       
+        valid_yapp_packets     uvm_analysis_port          -     @9927     
+          recording_detail     integral                   32    'd1       
+        yapp_in                uvm_analysis_imp_yapp      -     @9829     
+          recording_detail     integral                   32    'd1       
+        recording_detail       integral                   32    'd1       
+      r_scb                    router_scoreboard          -     @9551     
+        C0_in                  uvm_analysis_imp_C0        -     @9652     
+          recording_detail     integral                   32    'd1       
+        C1_in                  uvm_analysis_imp_C1        -     @9701     
+          recording_detail     integral                   32    'd1       
+        C2_in                  uvm_analysis_imp_C2        -     @9750     
+          recording_detail     integral                   32    'd1       
+        yapp_in                uvm_analysis_imp_yapp      -     @9603     
+          recording_detail     integral                   32    'd1       
+        recording_detail       integral                   32    'd1       
+      ref_hbus_exp             uvm_analysis_export        -     @4055     
+        recording_detail       integral                   32    'd1       
+      ref_yapp_exp             uvm_analysis_export        -     @4004     
+        recording_detail       integral                   32    'd1       
+      scb_C0_exp               uvm_analysis_export        -     @4106     
+        recording_detail       integral                   32    'd1       
+      scb_C1_exp               uvm_analysis_export        -     @4157     
+        recording_detail       integral                   32    'd1       
+      scb_C2_exp               uvm_analysis_export        -     @4206     
+        recording_detail       integral                   32    'd1       
+      recording_detail         integral                   32    'd1       
+--------------------------------------------------------------------------
+
+SDI/Verilog Transaction Recording Facility Version 23.09-s006
+UVM_INFO ../../channel/sv/channel_rx_seqs.sv(33) @ 0: uvm_test_top.env_top.C2.rx_agent.sequencer@@channel_rx_resp_seq [channel_rx_resp_seq] Executing channel_rx_resp_seq (forever)
+UVM_INFO ../../channel/sv/channel_rx_seqs.sv(33) @ 0: uvm_test_top.env_top.C1.rx_agent.sequencer@@channel_rx_resp_seq [channel_rx_resp_seq] Executing channel_rx_resp_seq (forever)
+UVM_INFO ../../channel/sv/channel_rx_seqs.sv(33) @ 0: uvm_test_top.env_top.C0.rx_agent.sequencer@@channel_rx_resp_seq [channel_rx_resp_seq] Executing channel_rx_resp_seq (forever)
+UVM_INFO ../../hbus/sv/hbus_master_seqs.sv(196) @ 0: uvm_test_top.env_top.h_b.masters[0].sequencer@@router_simple_mcseq.h_b_small [hbus_small_packet_seq] Executing sequence
+UVM_INFO ../../clock_and_reset/sv/clock_and_reset_seq.sv(20) @ 0: uvm_test_top.env_top.c_n_r_env.agent.sequencer@@clk10_rst5_seq.cr [clock_and_reset_sequence] starting body clock_and_reset_wait_seq
+UVM_INFO ../../hbus/sv/hbus_master_seqs.sv(133) @ 0: uvm_test_top.env_top.h_b.masters[0].sequencer@@router_simple_mcseq.h_b_small.hbus_seq [hbus_set_yapp_regs_seq] Executing sequence
+UVM_INFO ../../hbus/sv/hbus_monitor.sv(101) @ 65000: uvm_test_top.env_top.h_b.monitor [hbus_monitor] Collecting Transaction
+UVM_INFO ../../hbus/sv/hbus_monitor.sv(109) @ 75000: uvm_test_top.env_top.h_b.monitor [hbus_monitor] transaction collected :
+------------------------------------------------------------
+Name                  Type                  Size  Value     
+------------------------------------------------------------
+tr_collect            hbus_transaction      -     @10796    
+  haddr               integral              16    'h1000    
+  hdata               integral              8     'h14      
+  hwr_rd              hbus_read_write_enum  1     HBUS_WRITE
+  wait_between_cycle  integral              32    'h0       
+  begin_time          time                  64    65000     
+  end_time            time                  64    75000     
+------------------------------------------------------------
+
+UVM_INFO ../../hbus/sv/hbus_monitor.sv(101) @ 85000: uvm_test_top.env_top.h_b.monitor [hbus_monitor] Collecting Transaction
+UVM_INFO ../../hbus/sv/hbus_master_seqs.sv(236) @ 90000: uvm_test_top.env_top.h_b.masters[0].sequencer@@router_simple_mcseq.h_b_read_max_packet [hbus_read_max_pkt_seq] Executing sequence
+UVM_INFO ../../hbus/sv/hbus_monitor.sv(109) @ 95000: uvm_test_top.env_top.h_b.monitor [hbus_monitor] transaction collected :
+------------------------------------------------------------
+Name                  Type                  Size  Value     
+------------------------------------------------------------
+tr_collect            hbus_transaction      -     @10796    
+  haddr               integral              16    'h1001    
+  hdata               integral              8     'h1       
+  hwr_rd              hbus_read_write_enum  1     HBUS_WRITE
+  wait_between_cycle  integral              32    'h0       
+  begin_time          time                  64    85000     
+  end_time            time                  64    95000     
+------------------------------------------------------------
+
+UVM_INFO ../../hbus/sv/hbus_monitor.sv(101) @ 105000: uvm_test_top.env_top.h_b.monitor [hbus_monitor] Collecting Transaction
+UVM_INFO ../../yapp/sv/yapp_tx_seqs.sv(99) @ 120000: uvm_test_top.env_top.env.agent.sequencer@@router_simple_mcseq.yapp_seq_012 [yapp_012_seq] Executing yapp_012_packets sequence
+UVM_INFO ../../hbus/sv/hbus_monitor.sv(109) @ 125000: uvm_test_top.env_top.h_b.monitor [hbus_monitor] transaction collected :
+-----------------------------------------------------------
+Name                  Type                  Size  Value    
+-----------------------------------------------------------
+tr_collect            hbus_transaction      -     @10796   
+  haddr               integral              16    'h1000   
+  hdata               integral              8     'h14     
+  hwr_rd              hbus_read_write_enum  1     HBUS_READ
+  wait_between_cycle  integral              32    'h0      
+  begin_time          time                  64    105000   
+  end_time            time                  64    125000   
+-----------------------------------------------------------
+
+UVM_INFO ../../yapp/sv/yapp_tx_monitor.sv(54) @ 365000: uvm_test_top.env_top.env.agent.monitor [yapp_tx_monitor] Packet Collected :
+---------------------------------------------------
+Name            Type               Size  Value     
+---------------------------------------------------
+pkt             short_yapp_packet  -     @10613    
+  addr          integral           2     'h0       
+  length        integral           6     'he       
+  parity_type   parity_type_e      1     BAD_PARITY
+  payload       da(integral)       14    -         
+    [0]         integral           8     'h7b      
+    [1]         integral           8     'h2f      
+    [2]         integral           8     'hac      
+    [3]         integral           8     'h9e      
+    [4]         integral           8     'hae      
+    ...         ...                ...   ...       
+    [9]         integral           8     'h15      
+    [10]        integral           8     'h79      
+    [11]        integral           8     'h57      
+    [12]        integral           8     'h24      
+    [13]        integral           8     'h68      
+  parity        integral           8     'hda      
+  packet_delay  integral           32    'h0       
+  begin_time    time               64    215000    
+  end_time      time               64    365000    
+---------------------------------------------------
+
+*** ROUTER (DUT) Parity Error Identified: Expected:da Computed:07 ***
+UVM_INFO ../../channel/sv/channel_rx_monitor.sv(144) @ 455000: uvm_test_top.env_top.C0.rx_agent.monitor [channel_rx_monitor] Channel_0 Packet collected :
+--------------------------------------------------
+Name              Type            Size  Value     
+--------------------------------------------------
+packet_collected  channel_packet  -     @10617    
+  length          integral        6     'he       
+  addr            integral        2     'h0       
+  payload         da(integral)    14    -         
+    [0]           integral        8     'h7b      
+    [1]           integral        8     'h2f      
+    [2]           integral        8     'hac      
+    [3]           integral        8     'h9e      
+    [4]           integral        8     'hae      
+    ...           ...             ...   ...       
+    [9]           integral        8     'h15      
+    [10]          integral        8     'h79      
+    [11]          integral        8     'h57      
+    [12]          integral        8     'h24      
+    [13]          integral        8     'h68      
+  parity          integral        8     'hda      
+  parity_type     parity_e        1     BAD_PARITY
+  packet_delay    integral        32    'd0       
+  begin_time      time            64    295000    
+  end_time        time            64    455000    
+--------------------------------------------------
+
+UVM_INFO ../../task1_tlm_export/sv/router_scoreboard.sv(78) @ 455000: uvm_test_top.env_top.router_module_env.r_scb [router_scoreboard] packet Match at channel 0
+UVM_INFO ../../yapp/sv/yapp_tx_monitor.sv(54) @ 635000: uvm_test_top.env_top.env.agent.monitor [yapp_tx_monitor] Packet Collected :
+----------------------------------------------------
+Name            Type               Size  Value      
+----------------------------------------------------
+pkt             short_yapp_packet  -     @10389     
+  addr          integral           2     'h1        
+  length        integral           6     'h6        
+  parity_type   parity_type_e      1     GOOD_PARITY
+  payload       da(integral)       6     -          
+    [0]         integral           8     'h97       
+    [1]         integral           8     'hb4       
+    [2]         integral           8     'hff       
+    [3]         integral           8     'h28       
+    [4]         integral           8     'hff       
+    [5]         integral           8     'h70       
+  parity        integral           8     'h62       
+  packet_delay  integral           32    'h0        
+  begin_time    time               64    565000     
+  end_time      time               64    635000     
+----------------------------------------------------
+
+UVM_INFO ../../channel/sv/channel_rx_monitor.sv(144) @ 735000: uvm_test_top.env_top.C1.rx_agent.monitor [channel_rx_monitor] Channel_1 Packet collected :
+---------------------------------------------------
+Name              Type            Size  Value      
+---------------------------------------------------
+packet_collected  channel_packet  -     @10620     
+  length          integral        6     'h6        
+  addr            integral        2     'h1        
+  payload         da(integral)    6     -          
+    [0]           integral        8     'h97       
+    [1]           integral        8     'hb4       
+    [2]           integral        8     'hff       
+    [3]           integral        8     'h28       
+    [4]           integral        8     'hff       
+    [5]           integral        8     'h70       
+  parity          integral        8     'h62       
+  parity_type     parity_e        1     GOOD_PARITY
+  packet_delay    integral        32    'd0        
+  begin_time      time            64    655000     
+  end_time        time            64    735000     
+---------------------------------------------------
+
+UVM_INFO ../../task1_tlm_export/sv/router_scoreboard.sv(97) @ 735000: uvm_test_top.env_top.router_module_env.r_scb [router_scoreboard] packet Match at channel 1
+UVM_INFO ../../yapp/sv/yapp_tx_monitor.sv(54) @ 965000: uvm_test_top.env_top.env.agent.monitor [yapp_tx_monitor] Packet Collected :
+---------------------------------------------------
+Name            Type               Size  Value     
+---------------------------------------------------
+pkt             short_yapp_packet  -     @10432    
+  addr          integral           2     'h2       
+  length        integral           6     'hc       
+  parity_type   parity_type_e      1     BAD_PARITY
+  payload       da(integral)       12    -         
+    [0]         integral           8     'h5       
+    [1]         integral           8     'h9d      
+    [2]         integral           8     'h8f      
+    [3]         integral           8     'hea      
+    [4]         integral           8     'ha2      
+    ...         ...                ...   ...       
+    [7]         integral           8     'hca      
+    [8]         integral           8     'h53      
+    [9]         integral           8     'h1d      
+    [10]        integral           8     'h1       
+    [11]        integral           8     'h26      
+  parity        integral           8     'h2d      
+  packet_delay  integral           32    'h0       
+  begin_time    time               64    835000    
+  end_time      time               64    965000    
+---------------------------------------------------
+
+*** ROUTER (DUT) Parity Error Identified: Expected:2d Computed:e1 ***
+UVM_INFO ../../yapp/sv/yapp_tx_seqs.sv(99) @ 970000: uvm_test_top.env_top.env.agent.sequencer@@router_simple_mcseq.yapp_seq_012 [yapp_012_seq] Executing yapp_012_packets sequence
+UVM_INFO ../../channel/sv/channel_rx_monitor.sv(144) @ 1025000: uvm_test_top.env_top.C2.rx_agent.monitor [channel_rx_monitor] Channel_2 Packet collected :
+--------------------------------------------------
+Name              Type            Size  Value     
+--------------------------------------------------
+packet_collected  channel_packet  -     @10623    
+  length          integral        6     'hc       
+  addr            integral        2     'h2       
+  payload         da(integral)    12    -         
+    [0]           integral        8     'h5       
+    [1]           integral        8     'h9d      
+    [2]           integral        8     'h8f      
+    [3]           integral        8     'hea      
+    [4]           integral        8     'ha2      
+    ...           ...             ...   ...       
+    [7]           integral        8     'hca      
+    [8]           integral        8     'h53      
+    [9]           integral        8     'h1d      
+    [10]          integral        8     'h1       
+    [11]          integral        8     'h26      
+  parity          integral        8     'h2d      
+  parity_type     parity_e        1     BAD_PARITY
+  packet_delay    integral        32    'd0       
+  begin_time      time            64    885000    
+  end_time        time            64    1025000   
+--------------------------------------------------
+
+UVM_INFO ../../task1_tlm_export/sv/router_scoreboard.sv(116) @ 1025000: uvm_test_top.env_top.router_module_env.r_scb [router_scoreboard] packet Match at channel 2
+UVM_INFO ../../yapp/sv/yapp_tx_monitor.sv(54) @ 1255000: uvm_test_top.env_top.env.agent.monitor [yapp_tx_monitor] Packet Collected :
+---------------------------------------------------
+Name            Type               Size  Value     
+---------------------------------------------------
+pkt             short_yapp_packet  -     @10321    
+  addr          integral           2     'h0       
+  length        integral           6     'ha       
+  parity_type   parity_type_e      1     BAD_PARITY
+  payload       da(integral)       10    -         
+    [0]         integral           8     'h44      
+    [1]         integral           8     'hb6      
+    [2]         integral           8     'he0      
+    [3]         integral           8     'hfb      
+    [4]         integral           8     'hb5      
+    [5]         integral           8     'h9       
+    [6]         integral           8     'h4e      
+    [7]         integral           8     'ha8      
+    [8]         integral           8     'h26      
+    [9]         integral           8     'hfc      
+  parity        integral           8     'h14      
+  packet_delay  integral           32    'h0       
+  begin_time    time               64    1145000   
+  end_time      time               64    1255000   
+---------------------------------------------------
+
+*** ROUTER (DUT) Parity Error Identified: Expected:14 Computed:41 ***
+UVM_INFO ../../channel/sv/channel_rx_monitor.sv(144) @ 1295000: uvm_test_top.env_top.C0.rx_agent.monitor [channel_rx_monitor] Channel_0 Packet collected :
+--------------------------------------------------
+Name              Type            Size  Value     
+--------------------------------------------------
+packet_collected  channel_packet  -     @10387    
+  length          integral        6     'ha       
+  addr            integral        2     'h0       
+  payload         da(integral)    10    -         
+    [0]           integral        8     'h44      
+    [1]           integral        8     'hb6      
+    [2]           integral        8     'he0      
+    [3]           integral        8     'hfb      
+    [4]           integral        8     'hb5      
+    [5]           integral        8     'h9       
+    [6]           integral        8     'h4e      
+    [7]           integral        8     'ha8      
+    [8]           integral        8     'h26      
+    [9]           integral        8     'hfc      
+  parity          integral        8     'h14      
+  parity_type     parity_e        1     BAD_PARITY
+  packet_delay    integral        32    'd0       
+  begin_time      time            64    1175000   
+  end_time        time            64    1295000   
+--------------------------------------------------
+
+UVM_INFO ../../task1_tlm_export/sv/router_scoreboard.sv(78) @ 1295000: uvm_test_top.env_top.router_module_env.r_scb [router_scoreboard] packet Match at channel 0
+UVM_INFO ../../yapp/sv/yapp_tx_monitor.sv(54) @ 1415000: uvm_test_top.env_top.env.agent.monitor [yapp_tx_monitor] Packet Collected :
+----------------------------------------------------
+Name            Type               Size  Value      
+----------------------------------------------------
+pkt             short_yapp_packet  -     @10373     
+  addr          integral           2     'h1        
+  length        integral           6     'h6        
+  parity_type   parity_type_e      1     GOOD_PARITY
+  payload       da(integral)       6     -          
+    [0]         integral           8     'ha9       
+    [1]         integral           8     'h84       
+    [2]         integral           8     'h8b       
+    [3]         integral           8     'hb9       
+    [4]         integral           8     'h3f       
+    [5]         integral           8     'h41       
+  parity        integral           8     'h78       
+  packet_delay  integral           32    'h0        
+  begin_time    time               64    1345000    
+  end_time      time               64    1415000    
+----------------------------------------------------
+
+UVM_INFO ../../channel/sv/channel_rx_monitor.sv(144) @ 1465000: uvm_test_top.env_top.C1.rx_agent.monitor [channel_rx_monitor] Channel_1 Packet collected :
+---------------------------------------------------
+Name              Type            Size  Value      
+---------------------------------------------------
+packet_collected  channel_packet  -     @10452     
+  length          integral        6     'h6        
+  addr            integral        2     'h1        
+  payload         da(integral)    6     -          
+    [0]           integral        8     'ha9       
+    [1]           integral        8     'h84       
+    [2]           integral        8     'h8b       
+    [3]           integral        8     'hb9       
+    [4]           integral        8     'h3f       
+    [5]           integral        8     'h41       
+  parity          integral        8     'h78       
+  parity_type     parity_e        1     GOOD_PARITY
+  packet_delay    integral        32    'd0        
+  begin_time      time            64    1385000    
+  end_time        time            64    1465000    
+---------------------------------------------------
+
+UVM_INFO ../../task1_tlm_export/sv/router_scoreboard.sv(97) @ 1465000: uvm_test_top.env_top.router_module_env.r_scb [router_scoreboard] packet Match at channel 1
+UVM_INFO ../../yapp/sv/yapp_tx_monitor.sv(54) @ 1665000: uvm_test_top.env_top.env.agent.monitor [yapp_tx_monitor] Packet Collected :
+----------------------------------------------------
+Name            Type               Size  Value      
+----------------------------------------------------
+pkt             short_yapp_packet  -     @10423     
+  addr          integral           2     'h2        
+  length        integral           6     'h6        
+  parity_type   parity_type_e      1     GOOD_PARITY
+  payload       da(integral)       6     -          
+    [0]         integral           8     'h49       
+    [1]         integral           8     'hda       
+    [2]         integral           8     'h30       
+    [3]         integral           8     'hde       
+    [4]         integral           8     'h50       
+    [5]         integral           8     'h20       
+  parity        integral           8     'h17       
+  packet_delay  integral           32    'h0        
+  begin_time    time               64    1595000    
+  end_time      time               64    1665000    
+----------------------------------------------------
+
+UVM_INFO ../../hbus/sv/hbus_master_seqs.sv(215) @ 1670000: uvm_test_top.env_top.h_b.masters[0].sequencer@@router_simple_mcseq.h_b_small_63 [hbus_set_default_regs_seq] Executing sequence
+UVM_INFO ../../hbus/sv/hbus_master_seqs.sv(133) @ 1670000: uvm_test_top.env_top.h_b.masters[0].sequencer@@router_simple_mcseq.h_b_small_63.hbus_seq [hbus_set_yapp_regs_seq] Executing sequence
+UVM_INFO ../../hbus/sv/hbus_monitor.sv(101) @ 1685000: uvm_test_top.env_top.h_b.monitor [hbus_monitor] Collecting Transaction
+UVM_INFO ../../hbus/sv/hbus_monitor.sv(109) @ 1695000: uvm_test_top.env_top.h_b.monitor [hbus_monitor] transaction collected :
+------------------------------------------------------------
+Name                  Type                  Size  Value     
+------------------------------------------------------------
+tr_collect            hbus_transaction      -     @10796    
+  haddr               integral              16    'h1000    
+  hdata               integral              8     'h3f      
+  hwr_rd              hbus_read_write_enum  1     HBUS_WRITE
+  wait_between_cycle  integral              32    'h0       
+  begin_time          time                  64    1685000   
+  end_time            time                  64    1695000   
+------------------------------------------------------------
+
+UVM_INFO ../../hbus/sv/hbus_monitor.sv(101) @ 1705000: uvm_test_top.env_top.h_b.monitor [hbus_monitor] Collecting Transaction
+UVM_INFO ../../hbus/sv/hbus_master_seqs.sv(236) @ 1710000: uvm_test_top.env_top.h_b.masters[0].sequencer@@router_simple_mcseq.h_b_read_max_packet [hbus_read_max_pkt_seq] Executing sequence
+UVM_INFO ../../hbus/sv/hbus_monitor.sv(109) @ 1715000: uvm_test_top.env_top.h_b.monitor [hbus_monitor] transaction collected :
+------------------------------------------------------------
+Name                  Type                  Size  Value     
+------------------------------------------------------------
+tr_collect            hbus_transaction      -     @10796    
+  haddr               integral              16    'h1001    
+  hdata               integral              8     'h1       
+  hwr_rd              hbus_read_write_enum  1     HBUS_WRITE
+  wait_between_cycle  integral              32    'h0       
+  begin_time          time                  64    1705000   
+  end_time            time                  64    1715000   
+------------------------------------------------------------
+
+UVM_INFO ../../hbus/sv/hbus_monitor.sv(101) @ 1725000: uvm_test_top.env_top.h_b.monitor [hbus_monitor] Collecting Transaction
+UVM_INFO ../../yapp/sv/yapp_tx_seqs.sv(225) @ 1740000: uvm_test_top.env_top.env.agent.sequencer@@router_simple_mcseq.seq_random_6.random_seq [yapp_rnd_seq] Executing yapp_111_packets sequence
+UVM_INFO ../../hbus/sv/hbus_monitor.sv(109) @ 1745000: uvm_test_top.env_top.h_b.monitor [hbus_monitor] transaction collected :
+-----------------------------------------------------------
+Name                  Type                  Size  Value    
+-----------------------------------------------------------
+tr_collect            hbus_transaction      -     @10796   
+  haddr               integral              16    'h1000   
+  hdata               integral              8     'h3f     
+  hwr_rd              hbus_read_write_enum  1     HBUS_READ
+  wait_between_cycle  integral              32    'h0      
+  begin_time          time                  64    1725000  
+  end_time            time                  64    1745000  
+-----------------------------------------------------------
+
+UVM_INFO ../../channel/sv/channel_rx_monitor.sv(144) @ 1755000: uvm_test_top.env_top.C2.rx_agent.monitor [channel_rx_monitor] Channel_2 Packet collected :
+---------------------------------------------------
+Name              Type            Size  Value      
+---------------------------------------------------
+packet_collected  channel_packet  -     @10319     
+  length          integral        6     'h6        
+  addr            integral        2     'h2        
+  payload         da(integral)    6     -          
+    [0]           integral        8     'h49       
+    [1]           integral        8     'hda       
+    [2]           integral        8     'h30       
+    [3]           integral        8     'hde       
+    [4]           integral        8     'h50       
+    [5]           integral        8     'h20       
+  parity          integral        8     'h17       
+  parity_type     parity_e        1     GOOD_PARITY
+  packet_delay    integral        32    'd0        
+  begin_time      time            64    1675000    
+  end_time        time            64    1755000    
+---------------------------------------------------
+
+UVM_INFO ../../task1_tlm_export/sv/router_scoreboard.sv(116) @ 1755000: uvm_test_top.env_top.router_module_env.r_scb [router_scoreboard] packet Match at channel 2
+UVM_INFO ../../yapp/sv/yapp_tx_monitor.sv(54) @ 1915000: uvm_test_top.env_top.env.agent.monitor [yapp_tx_monitor] Packet Collected :
+---------------------------------------------------
+Name            Type               Size  Value     
+---------------------------------------------------
+pkt             short_yapp_packet  -     @10431    
+  addr          integral           2     'h1       
+  length        integral           6     'h5       
+  parity_type   parity_type_e      1     BAD_PARITY
+  payload       da(integral)       5     -         
+    [0]         integral           8     'h7b      
+    [1]         integral           8     'hbb      
+    [2]         integral           8     'he2      
+    [3]         integral           8     'hd3      
+    [4]         integral           8     'hb5      
+  parity        integral           8     'had      
+  packet_delay  integral           32    'h0       
+  begin_time    time               64    1855000   
+  end_time      time               64    1915000   
+---------------------------------------------------
+
+*** ROUTER (DUT) Parity Error Identified: Expected:ad Computed:51 ***
+UVM_INFO ../../yapp/sv/yapp_tx_seqs.sv(229) @ 1920000: uvm_test_top.env_top.env.agent.sequencer@@router_simple_mcseq.seq_random_6.random_seq [yapp_rnd_seq] Packet is 1th of           6
+UVM_INFO ../../channel/sv/channel_rx_monitor.sv(144) @ 1955000: uvm_test_top.env_top.C1.rx_agent.monitor [channel_rx_monitor] Channel_1 Packet collected :
+--------------------------------------------------
+Name              Type            Size  Value     
+--------------------------------------------------
+packet_collected  channel_packet  -     @10433    
+  length          integral        6     'h5       
+  addr            integral        2     'h1       
+  payload         da(integral)    5     -         
+    [0]           integral        8     'h7b      
+    [1]           integral        8     'hbb      
+    [2]           integral        8     'he2      
+    [3]           integral        8     'hd3      
+    [4]           integral        8     'hb5      
+  parity          integral        8     'had      
+  parity_type     parity_e        1     BAD_PARITY
+  packet_delay    integral        32    'd0       
+  begin_time      time            64    1885000   
+  end_time        time            64    1955000   
+--------------------------------------------------
+
+UVM_INFO ../../task1_tlm_export/sv/router_scoreboard.sv(97) @ 1955000: uvm_test_top.env_top.router_module_env.r_scb [router_scoreboard] packet Match at channel 1
+UVM_INFO ../../yapp/sv/yapp_tx_monitor.sv(54) @ 2185000: uvm_test_top.env_top.env.agent.monitor [yapp_tx_monitor] Packet Collected :
+----------------------------------------------------
+Name            Type               Size  Value      
+----------------------------------------------------
+pkt             short_yapp_packet  -     @10270     
+  addr          integral           2     'h0        
+  length        integral           6     'he        
+  parity_type   parity_type_e      1     GOOD_PARITY
+  payload       da(integral)       14    -          
+    [0]         integral           8     'h0        
+    [1]         integral           8     'hd        
+    [2]         integral           8     'h6c       
+    [3]         integral           8     'h23       
+    [4]         integral           8     'h71       
+    ...         ...                ...   ...        
+    [9]         integral           8     'h52       
+    [10]        integral           8     'h9b       
+    [11]        integral           8     'h9b       
+    [12]        integral           8     'h2a       
+    [13]        integral           8     'h92       
+  parity        integral           8     'hba       
+  packet_delay  integral           32    'h0        
+  begin_time    time               64    2035000    
+  end_time      time               64    2185000    
+----------------------------------------------------
+
+UVM_INFO ../../yapp/sv/yapp_tx_seqs.sv(229) @ 2190000: uvm_test_top.env_top.env.agent.sequencer@@router_simple_mcseq.seq_random_6.random_seq [yapp_rnd_seq] Packet is 2th of           6
+UVM_INFO ../../channel/sv/channel_rx_monitor.sv(144) @ 2225000: uvm_test_top.env_top.C0.rx_agent.monitor [channel_rx_monitor] Channel_0 Packet collected :
+---------------------------------------------------
+Name              Type            Size  Value      
+---------------------------------------------------
+packet_collected  channel_packet  -     @10375     
+  length          integral        6     'he        
+  addr            integral        2     'h0        
+  payload         da(integral)    14    -          
+    [0]           integral        8     'h0        
+    [1]           integral        8     'hd        
+    [2]           integral        8     'h6c       
+    [3]           integral        8     'h23       
+    [4]           integral        8     'h71       
+    ...           ...             ...   ...        
+    [9]           integral        8     'h52       
+    [10]          integral        8     'h9b       
+    [11]          integral        8     'h9b       
+    [12]          integral        8     'h2a       
+    [13]          integral        8     'h92       
+  parity          integral        8     'hba       
+  parity_type     parity_e        1     GOOD_PARITY
+  packet_delay    integral        32    'd0        
+  begin_time      time            64    2065000    
+  end_time        time            64    2225000    
+---------------------------------------------------
+
+UVM_INFO ../../task1_tlm_export/sv/router_scoreboard.sv(78) @ 2225000: uvm_test_top.env_top.router_module_env.r_scb [router_scoreboard] packet Match at channel 0
+UVM_INFO ../../yapp/sv/yapp_tx_monitor.sv(54) @ 2415000: uvm_test_top.env_top.env.agent.monitor [yapp_tx_monitor] Packet Collected :
+----------------------------------------------------
+Name            Type               Size  Value      
+----------------------------------------------------
+pkt             short_yapp_packet  -     @10222     
+  addr          integral           2     'h1        
+  length        integral           6     'hc        
+  parity_type   parity_type_e      1     GOOD_PARITY
+  payload       da(integral)       12    -          
+    [0]         integral           8     'h2a       
+    [1]         integral           8     'he0       
+    [2]         integral           8     'h48       
+    [3]         integral           8     'hcc       
+    [4]         integral           8     'ha6       
+    ...         ...                ...   ...        
+    [7]         integral           8     'h43       
+    [8]         integral           8     'h1d       
+    [9]         integral           8     'hb6       
+    [10]        integral           8     'hbd       
+    [11]        integral           8     'h4c       
+  parity        integral           8     'hb        
+  packet_delay  integral           32    'h0        
+  begin_time    time               64    2285000    
+  end_time      time               64    2415000    
+----------------------------------------------------
+
+UVM_INFO ../../yapp/sv/yapp_tx_seqs.sv(229) @ 2420000: uvm_test_top.env_top.env.agent.sequencer@@router_simple_mcseq.seq_random_6.random_seq [yapp_rnd_seq] Packet is 3th of           6
+UVM_INFO ../../channel/sv/channel_rx_monitor.sv(144) @ 2515000: uvm_test_top.env_top.C1.rx_agent.monitor [channel_rx_monitor] Channel_1 Packet collected :
+---------------------------------------------------
+Name              Type            Size  Value      
+---------------------------------------------------
+packet_collected  channel_packet  -     @10281     
+  length          integral        6     'hc        
+  addr            integral        2     'h1        
+  payload         da(integral)    12    -          
+    [0]           integral        8     'h2a       
+    [1]           integral        8     'he0       
+    [2]           integral        8     'h48       
+    [3]           integral        8     'hcc       
+    [4]           integral        8     'ha6       
+    ...           ...             ...   ...        
+    [7]           integral        8     'h43       
+    [8]           integral        8     'h1d       
+    [9]           integral        8     'hb6       
+    [10]          integral        8     'hbd       
+    [11]          integral        8     'h4c       
+  parity          integral        8     'hb        
+  parity_type     parity_e        1     GOOD_PARITY
+  packet_delay    integral        32    'd0        
+  begin_time      time            64    2375000    
+  end_time        time            64    2515000    
+---------------------------------------------------
+
+UVM_INFO ../../task1_tlm_export/sv/router_scoreboard.sv(97) @ 2515000: uvm_test_top.env_top.router_module_env.r_scb [router_scoreboard] packet Match at channel 1
+UVM_INFO ../../yapp/sv/yapp_tx_monitor.sv(54) @ 2685000: uvm_test_top.env_top.env.agent.monitor [yapp_tx_monitor] Packet Collected :
+---------------------------------------------------
+Name            Type               Size  Value     
+---------------------------------------------------
+pkt             short_yapp_packet  -     @10257    
+  addr          integral           2     'h0       
+  length        integral           6     'h5       
+  parity_type   parity_type_e      1     BAD_PARITY
+  payload       da(integral)       5     -         
+    [0]         integral           8     'h58      
+    [1]         integral           8     'h55      
+    [2]         integral           8     'hdc      
+    [3]         integral           8     'h96      
+    [4]         integral           8     'h3a      
+  parity        integral           8     'h4b      
+  packet_delay  integral           32    'h0       
+  begin_time    time               64    2625000   
+  end_time      time               64    2685000   
+---------------------------------------------------
+
+*** ROUTER (DUT) Parity Error Identified: Expected:4b Computed:69 ***
+UVM_INFO ../../yapp/sv/yapp_tx_seqs.sv(229) @ 2690000: uvm_test_top.env_top.env.agent.sequencer@@router_simple_mcseq.seq_random_6.random_seq [yapp_rnd_seq] Packet is 4th of           6
+UVM_INFO ../../channel/sv/channel_rx_monitor.sv(144) @ 2775000: uvm_test_top.env_top.C0.rx_agent.monitor [channel_rx_monitor] Channel_0 Packet collected :
+--------------------------------------------------
+Name              Type            Size  Value     
+--------------------------------------------------
+packet_collected  channel_packet  -     @10226    
+  length          integral        6     'h5       
+  addr            integral        2     'h0       
+  payload         da(integral)    5     -         
+    [0]           integral        8     'h58      
+    [1]           integral        8     'h55      
+    [2]           integral        8     'hdc      
+    [3]           integral        8     'h96      
+    [4]           integral        8     'h3a      
+  parity          integral        8     'h4b      
+  parity_type     parity_e        1     BAD_PARITY
+  packet_delay    integral        32    'd0       
+  begin_time      time            64    2705000   
+  end_time        time            64    2775000   
+--------------------------------------------------
+
+UVM_INFO ../../task1_tlm_export/sv/router_scoreboard.sv(78) @ 2775000: uvm_test_top.env_top.router_module_env.r_scb [router_scoreboard] packet Match at channel 0
+UVM_INFO ../../yapp/sv/yapp_tx_monitor.sv(54) @ 2855000: uvm_test_top.env_top.env.agent.monitor [yapp_tx_monitor] Packet Collected :
+---------------------------------------------------
+Name            Type               Size  Value     
+---------------------------------------------------
+pkt             short_yapp_packet  -     @10258    
+  addr          integral           2     'h0       
+  length        integral           6     'h7       
+  parity_type   parity_type_e      1     BAD_PARITY
+  payload       da(integral)       7     -         
+    [0]         integral           8     'hf       
+    [1]         integral           8     'h21      
+    [2]         integral           8     'h48      
+    [3]         integral           8     'h84      
+    [4]         integral           8     'h3       
+    [5]         integral           8     'hf3      
+    [6]         integral           8     'h76      
+  parity        integral           8     'h54      
+  packet_delay  integral           32    'h0       
+  begin_time    time               64    2775000   
+  end_time      time               64    2855000   
+---------------------------------------------------
+
+*** ROUTER (DUT) Parity Error Identified: Expected:54 Computed:78 ***
+UVM_INFO ../../yapp/sv/yapp_tx_seqs.sv(229) @ 2860000: uvm_test_top.env_top.env.agent.sequencer@@router_simple_mcseq.seq_random_6.random_seq [yapp_rnd_seq] Packet is 5th of           6
+UVM_INFO ../../channel/sv/channel_rx_monitor.sv(144) @ 2965000: uvm_test_top.env_top.C0.rx_agent.monitor [channel_rx_monitor] Channel_0 Packet collected :
+--------------------------------------------------
+Name              Type            Size  Value     
+--------------------------------------------------
+packet_collected  channel_packet  -     @10269    
+  length          integral        6     'h7       
+  addr            integral        2     'h0       
+  payload         da(integral)    7     -         
+    [0]           integral        8     'hf       
+    [1]           integral        8     'h21      
+    [2]           integral        8     'h48      
+    [3]           integral        8     'h84      
+    [4]           integral        8     'h3       
+    [5]           integral        8     'hf3      
+    [6]           integral        8     'h76      
+  parity          integral        8     'h54      
+  parity_type     parity_e        1     BAD_PARITY
+  packet_delay    integral        32    'd0       
+  begin_time      time            64    2875000   
+  end_time        time            64    2965000   
+--------------------------------------------------
+
+UVM_INFO ../../task1_tlm_export/sv/router_scoreboard.sv(78) @ 2965000: uvm_test_top.env_top.router_module_env.r_scb [router_scoreboard] packet Match at channel 0
+UVM_INFO ../../yapp/sv/yapp_tx_monitor.sv(54) @ 3105000: uvm_test_top.env_top.env.agent.monitor [yapp_tx_monitor] Packet Collected :
+----------------------------------------------------
+Name            Type               Size  Value      
+----------------------------------------------------
+pkt             short_yapp_packet  -     @10237     
+  addr          integral           2     'h0        
+  length        integral           6     'hd        
+  parity_type   parity_type_e      1     GOOD_PARITY
+  payload       da(integral)       13    -          
+    [0]         integral           8     'h89       
+    [1]         integral           8     'h1c       
+    [2]         integral           8     'he        
+    [3]         integral           8     'hf0       
+    [4]         integral           8     'hea       
+    ...         ...                ...   ...        
+    [8]         integral           8     'h9a       
+    [9]         integral           8     'hed       
+    [10]        integral           8     'h67       
+    [11]        integral           8     'h1        
+    [12]        integral           8     'hbc       
+  parity        integral           8     'hf5       
+  packet_delay  integral           32    'h0        
+  begin_time    time               64    2965000    
+  end_time      time               64    3105000    
+----------------------------------------------------
+
+UVM_INFO ../../yapp/sv/yapp_tx_seqs.sv(229) @ 3110000: uvm_test_top.env_top.env.agent.sequencer@@router_simple_mcseq.seq_random_6.random_seq [yapp_rnd_seq] Packet is 6th of           6
+UVM_INFO ../../channel/sv/channel_rx_monitor.sv(144) @ 3215000: uvm_test_top.env_top.C0.rx_agent.monitor [channel_rx_monitor] Channel_0 Packet collected :
+---------------------------------------------------
+Name              Type            Size  Value      
+---------------------------------------------------
+packet_collected  channel_packet  -     @10261     
+  length          integral        6     'hd        
+  addr            integral        2     'h0        
+  payload         da(integral)    13    -          
+    [0]           integral        8     'h89       
+    [1]           integral        8     'h1c       
+    [2]           integral        8     'he        
+    [3]           integral        8     'hf0       
+    [4]           integral        8     'hea       
+    ...           ...             ...   ...        
+    [8]           integral        8     'h9a       
+    [9]           integral        8     'hed       
+    [10]          integral        8     'h67       
+    [11]          integral        8     'h1        
+    [12]          integral        8     'hbc       
+  parity          integral        8     'hf5       
+  parity_type     parity_e        1     GOOD_PARITY
+  packet_delay    integral        32    'd0        
+  begin_time      time            64    3065000    
+  end_time        time            64    3215000    
+---------------------------------------------------
+
+UVM_INFO ../../task1_tlm_export/sv/router_scoreboard.sv(78) @ 3215000: uvm_test_top.env_top.router_module_env.r_scb [router_scoreboard] packet Match at channel 0
+UVM_INFO ../../channel/sv/channel_rx_driver.sv(94) @ 3310000: uvm_test_top.env_top.C0.rx_agent.driver [channel_rx_driver] Report: Channel_0 RX Driver Sent 6 Responses
+UVM_INFO ../../channel/sv/channel_rx_monitor.sv(157) @ 3310000: uvm_test_top.env_top.C0.rx_agent.monitor [channel_rx_monitor] Report: Channel_0 Monitor Collected 6 Packets
+UVM_INFO ../../channel/sv/channel_rx_driver.sv(94) @ 3310000: uvm_test_top.env_top.C1.rx_agent.driver [channel_rx_driver] Report: Channel_1 RX Driver Sent 4 Responses
+UVM_INFO ../../channel/sv/channel_rx_monitor.sv(157) @ 3310000: uvm_test_top.env_top.C1.rx_agent.monitor [channel_rx_monitor] Report: Channel_1 Monitor Collected 4 Packets
+UVM_INFO ../../channel/sv/channel_rx_driver.sv(94) @ 3310000: uvm_test_top.env_top.C2.rx_agent.driver [channel_rx_driver] Report: Channel_2 RX Driver Sent 2 Responses
+UVM_INFO ../../channel/sv/channel_rx_monitor.sv(157) @ 3310000: uvm_test_top.env_top.C2.rx_agent.monitor [channel_rx_monitor] Report: Channel_2 Monitor Collected 2 Packets
+UVM_INFO ../../yapp/sv/yapp_tx_monitor.sv(64) @ 3310000: uvm_test_top.env_top.env.agent.monitor [yapp_tx_monitor] Report: YAPP Monitor Collected 12 Packets
+UVM_INFO ../../hbus/sv/hbus_monitor.sv(132) @ 3310000: uvm_test_top.env_top.h_b.monitor [hbus_monitor] Report: HBUS Monitor Collected 4 WRITE and 2 READ Transactions
+UVM_INFO ../../task1_tlm_export/sv/router_scoreboard.sv(123) @ 3310000: uvm_test_top.env_top.router_module_env.r_scb [router_scoreboard] No of          packet received: 12
+UVM_INFO ../../task1_tlm_export/sv/router_scoreboard.sv(124) @ 3310000: uvm_test_top.env_top.router_module_env.r_scb [router_scoreboard] No of WRONG    packet received: 0
+UVM_INFO ../../task1_tlm_export/sv/router_scoreboard.sv(125) @ 3310000: uvm_test_top.env_top.router_module_env.r_scb [router_scoreboard] No of MATCHED  packet received: 12
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   82
+UVM_WARNING :    1
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TPRGED]     1
+[UVMTOP]     1
+[channel_rx_driver]     3
+[channel_rx_monitor]    15
+[channel_rx_resp_seq]     3
+[clock_and_reset_sequence]     1
+[hbus_monitor]    13
+[hbus_read_max_pkt_seq]     2
+[hbus_set_default_regs_seq]     1
+[hbus_set_yapp_regs_seq]     2
+[hbus_small_packet_seq]     1
+[router_scoreboard]    15
+[test]     1
+[yapp_012_seq]     2
+[yapp_rnd_seq]     7
+[yapp_tx_driver]     1
+[yapp_tx_monitor]    13
+Simulation complete via $finish(1) at time 3310 NS + 46
+/home/cc/mnt/XCELIUM2309/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> exit
+xmsim: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+xmsim: *W,CGPIZE: Instance coverage for covergroup instance "cover_transaction" will not be dumped to database as per_instance option value is set to 0:/home/cc/Downloads/1.UVM/labs/NCDC_DV_Lab_42/Lab 42 files/hbus/sv/hbus_monitor.sv, 52.
+xmsim: *W,CGPIZE: Instance coverage for covergroup instance "cover_transaction" will not be dumped to database as per_instance option value is set to 0:/home/cc/Downloads/1.UVM/labs/NCDC_DV_Lab_42/Lab 42 files/hbus/sv/hbus_monitor.sv, 52.
+
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  tb_top(tb_top)
+  scope    :  scope
+  testname :  test_sv1014783788
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_00000000_2ad0b5fd.ucm (reused)
+  data               :  ./cov_work/scope/test_sv1014783788/icc_00000000_2ad0b5fd.ucd
+TOOL:	xrun(64)	23.09-s006: Exiting on Jul 04, 2025 at 20:04:31 PKT  (total: 00:00:02)

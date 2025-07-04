@@ -1,0 +1,6 @@
+xcelium.shm
+*.svwf
+xcelium.d
+waves.shm
+.simvision
+qaLog.txt

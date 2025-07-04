@@ -1,0 +1,468 @@
+[INFO ] 2025-07-01 05:27:50 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - LmApi Version = SftShrDevJava20.01-p001
+[INFO ] 2025-07-01 05:27:50 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - FlexNet Java Tool-Kit Version = 11.16
+[INFO ] 2025-07-01 05:27:50 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Begin parsing license server path configuration
+[INFO ] 2025-07-01 05:27:50 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Successfully parsed license server path configuration. License server path = 5280@10.19.32.90
+[INFO ] 2025-07-01 05:27:50 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 05:27:50 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 05:27:50 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 05:27:50 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 1
+[INFO ] 2025-07-01 05:27:50 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 05:27:51 [com.cadence.softshare.service.LmApi] [main] - Check-out (Increment) started ....
+[INFO ] 2025-07-01 05:27:51 [com.cadence.softshare.service.LmApi] [main] - Checkout request received for 1 count of Integrated_Metrics_Center 22.0with queue mode = 0
+[INFO ] 2025-07-01 05:27:51 [com.cadence.softshare.service.LmApi] [main] - Skipping handle setting for the checkout as it is disabled
+[INFO ] 2025-07-01 05:27:51 [com.cadence.softshare.service.LmApi] [main] - Check-out (Increment) completed with status 0 (time 139).
+[INFO ] 2025-07-01 05:27:51 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 39507
+[ERROR] 2025-07-01 05:27:51 [com.cadence.mdv.messaging.MDVASynchronicMessaging] [frontend-pool-1] - Cannot read directory '/task3_scb2/tb/cov_work/scope/test_sv-1929382268'. Check if the directory has read permission, and rerun the command	   
+[ERROR] 2025-07-01 05:27:51 [com.cadence.mdv.messaging.MDVASynchronicMessaging] [frontend-pool-1] - Valid model file not found for run directory /task3_scb2/tb/cov_work/scope/test_sv-1929382268. Specify a valid run directory with correct ucm, ucd files and rerun the command.
+[INFO ] 2025-07-01 05:27:51 [com.cadence.softshare.service.LmApi] [Thread-4] - CheckInAll started ....
+[INFO ] 2025-07-01 05:27:51 [com.cadence.softshare.service.LmApi] [Thread-4] - Check-in of Integrated_Metrics_Center with count 1 was successful.
+[INFO ] 2025-07-01 05:27:51 [com.cadence.softshare.service.LmApi] [Thread-4] - CheckInAll completed (time 1).
+[INFO ] 2025-07-01 05:28:36 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - LmApi Version = SftShrDevJava20.01-p001
+[INFO ] 2025-07-01 05:28:36 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - FlexNet Java Tool-Kit Version = 11.16
+[INFO ] 2025-07-01 05:28:36 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Begin parsing license server path configuration
+[INFO ] 2025-07-01 05:28:36 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Successfully parsed license server path configuration. License server path = 5280@10.19.32.90
+[INFO ] 2025-07-01 05:28:36 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 05:28:36 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 05:28:36 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 05:28:36 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 05:28:36 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 05:28:36 [com.cadence.softshare.service.LmApi] [main] - Check-out (Increment) started ....
+[INFO ] 2025-07-01 05:28:36 [com.cadence.softshare.service.LmApi] [main] - Checkout request received for 1 count of Integrated_Metrics_Center 22.0with queue mode = 0
+[INFO ] 2025-07-01 05:28:36 [com.cadence.softshare.service.LmApi] [main] - Skipping handle setting for the checkout as it is disabled
+[INFO ] 2025-07-01 05:28:36 [com.cadence.softshare.service.LmApi] [main] - Check-out (Increment) completed with status 0 (time 122).
+[INFO ] 2025-07-01 05:28:36 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 34633
+[ERROR] 2025-07-01 05:28:37 [com.cadence.mdv.messaging.MDVASynchronicMessaging] [frontend-pool-1] - Cannot read directory '/task3_scb2/tb/cov_work/scope'. Check if the directory has read permission, and rerun the command	   
+[ERROR] 2025-07-01 05:28:37 [com.cadence.mdv.messaging.MDVASynchronicMessaging] [frontend-pool-1] - Valid model file not found for run directory /task3_scb2/tb/cov_work/scope. Specify a valid run directory with correct ucm, ucd files and rerun the command.
+[INFO ] 2025-07-01 05:28:37 [com.cadence.softshare.service.LmApi] [Thread-4] - CheckInAll started ....
+[INFO ] 2025-07-01 05:28:37 [com.cadence.softshare.service.LmApi] [Thread-4] - Check-in of Integrated_Metrics_Center with count 1 was successful.
+[INFO ] 2025-07-01 05:28:37 [com.cadence.softshare.service.LmApi] [Thread-4] - CheckInAll completed (time 2).
+[INFO ] 2025-07-01 05:29:56 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - LmApi Version = SftShrDevJava20.01-p001
+[INFO ] 2025-07-01 05:29:56 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - FlexNet Java Tool-Kit Version = 11.16
+[INFO ] 2025-07-01 05:29:56 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Begin parsing license server path configuration
+[INFO ] 2025-07-01 05:29:56 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Successfully parsed license server path configuration. License server path = 5280@10.19.32.90
+[INFO ] 2025-07-01 05:29:56 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 05:29:56 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 05:29:56 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 05:29:56 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 1
+[INFO ] 2025-07-01 05:29:56 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 05:29:57 [com.cadence.softshare.service.LmApi] [main] - Check-out (Increment) started ....
+[INFO ] 2025-07-01 05:29:57 [com.cadence.softshare.service.LmApi] [main] - Checkout request received for 1 count of Integrated_Metrics_Center 22.0with queue mode = 0
+[INFO ] 2025-07-01 05:29:57 [com.cadence.softshare.service.LmApi] [main] - Skipping handle setting for the checkout as it is disabled
+[INFO ] 2025-07-01 05:29:57 [com.cadence.softshare.service.LmApi] [main] - Check-out (Increment) completed with status 0 (time 168).
+[INFO ] 2025-07-01 05:29:57 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 35895
+[ERROR] 2025-07-01 05:29:57 [com.cadence.mdv.messaging.MDVASynchronicMessaging] [frontend-pool-1] - Valid model file not found for run directory ./cov_work/scope. Specify a valid run directory with correct ucm, ucd files and rerun the command.
+[INFO ] 2025-07-01 05:29:57 [com.cadence.softshare.service.LmApi] [Thread-4] - CheckInAll started ....
+[INFO ] 2025-07-01 05:29:57 [com.cadence.softshare.service.LmApi] [Thread-4] - Check-in of Integrated_Metrics_Center with count 1 was successful.
+[INFO ] 2025-07-01 05:29:57 [com.cadence.softshare.service.LmApi] [Thread-4] - CheckInAll completed (time 1).
+[INFO ] 2025-07-01 05:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - LmApi Version = SftShrDevJava20.01-p001
+[INFO ] 2025-07-01 05:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - FlexNet Java Tool-Kit Version = 11.16
+[INFO ] 2025-07-01 05:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Begin parsing license server path configuration
+[INFO ] 2025-07-01 05:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Successfully parsed license server path configuration. License server path = 5280@10.19.32.90
+[INFO ] 2025-07-01 05:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 05:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 05:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 05:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 1
+[INFO ] 2025-07-01 05:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 05:31:03 [com.cadence.softshare.service.LmApi] [main] - Check-out (Increment) started ....
+[INFO ] 2025-07-01 05:31:03 [com.cadence.softshare.service.LmApi] [main] - Checkout request received for 1 count of Integrated_Metrics_Center 22.0with queue mode = 0
+[INFO ] 2025-07-01 05:31:03 [com.cadence.softshare.service.LmApi] [main] - Skipping handle setting for the checkout as it is disabled
+[INFO ] 2025-07-01 05:31:03 [com.cadence.softshare.service.LmApi] [main] - Check-out (Increment) completed with status 0 (time 151).
+[INFO ] 2025-07-01 05:31:03 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 33951
+[INFO ] 2025-07-01 05:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 05:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 05:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 05:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 05:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 05:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 05:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 05:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 1
+[INFO ] 2025-07-01 05:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 05:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 05:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 05:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 05:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 05:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 05:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 05:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 05:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 1
+[INFO ] 2025-07-01 05:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 05:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 05:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 05:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 05:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 05:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 05:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 05:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 05:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 1
+[INFO ] 2025-07-01 05:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 05:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 05:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 05:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 05:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 05:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 05:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 05:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 05:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 05:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 05:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 05:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 05:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 05:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 05:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 05:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 05:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 05:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 05:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 06:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 06:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 06:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 06:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 06:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 06:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 06:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 06:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 06:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 06:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 06:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 06:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 06:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 06:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 06:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 06:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 06:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 06:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 06:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 06:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 06:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 06:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 06:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 06:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 06:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 06:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 06:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 06:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 06:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 06:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 06:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 06:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 06:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 06:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 06:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 06:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 06:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 06:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 06:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 06:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 06:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 06:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 06:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 06:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 06:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 06:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 06:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 06:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 06:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 06:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 06:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 06:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 06:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 06:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 06:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 06:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 06:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 06:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 06:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 06:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 06:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 06:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 1
+[INFO ] 2025-07-01 06:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 06:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 06:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 06:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 06:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 06:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 06:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 06:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 06:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 06:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 06:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 06:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 06:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 06:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 06:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 06:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 06:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 06:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 06:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 06:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 06:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 06:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 06:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 06:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 06:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 06:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 06:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 06:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 06:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 06:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 06:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 06:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 06:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 06:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 06:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 06:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 06:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 06:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 06:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 06:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 06:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 06:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 06:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 06:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 06:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 06:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 07:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 07:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 07:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 07:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 07:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 07:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 07:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 07:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 1
+[INFO ] 2025-07-01 07:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 07:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 07:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 07:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 07:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 07:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 07:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 07:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 07:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 1
+[INFO ] 2025-07-01 07:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 07:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 07:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 07:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 07:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 07:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 07:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 07:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 07:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 07:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 07:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 07:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 07:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 07:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 07:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 07:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 07:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 07:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 1
+[INFO ] 2025-07-01 07:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 07:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 07:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 07:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 07:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 07:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 07:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 07:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 07:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 1
+[INFO ] 2025-07-01 07:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 07:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 07:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 07:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 07:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 07:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 07:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 07:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 07:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 07:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 07:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 07:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 07:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 07:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 07:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 07:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 07:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 07:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 07:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 07:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 07:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 07:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 07:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 07:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 07:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 07:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 07:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 07:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 07:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 07:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 07:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 07:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 07:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 07:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 07:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 07:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 07:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 07:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 07:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 07:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 07:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 07:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 07:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 07:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 07:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 07:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 07:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 07:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 07:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 07:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 07:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 07:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 07:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 07:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 07:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 07:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 07:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 07:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 07:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 07:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 07:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 07:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 07:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 07:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 08:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 08:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 08:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 08:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 08:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 08:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 08:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 08:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 1
+[INFO ] 2025-07-01 08:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 08:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 08:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 08:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 08:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 08:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 08:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 08:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 08:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 08:06:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 08:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 08:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 08:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 08:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 08:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 08:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 08:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 08:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 08:11:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 08:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 08:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 08:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 08:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 08:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 08:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 08:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 08:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 1
+[INFO ] 2025-07-01 08:16:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 08:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 08:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 08:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 08:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 08:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 08:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 08:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 08:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 08:21:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 08:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 08:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 08:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 08:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 08:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 08:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 08:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 08:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 08:26:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 08:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 08:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 08:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 08:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 08:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 08:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 08:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 08:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 1
+[INFO ] 2025-07-01 08:31:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 08:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 08:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 08:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 08:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 08:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 08:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 08:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 08:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 08:36:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 08:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 08:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 08:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 08:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 08:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 08:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 08:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 08:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 08:41:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 08:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 08:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 08:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 08:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 08:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 08:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 08:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 08:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 08:46:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 08:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 08:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 08:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 08:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 08:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 08:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 08:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 08:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 08:51:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 08:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 08:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 08:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 08:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 08:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 08:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 08:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 08:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 08:56:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 09:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 09:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 09:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 09:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Checking feature Integrated_Metrics_Center
+[INFO ] 2025-07-01 09:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - 5280@10.19.32.90 Heartbeat Status for feature Integrated_Metrics_Center with checkout data ACD1393284987 = 0
+[INFO ] 2025-07-01 09:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping verify checkout handle as it is disabled
+[INFO ] 2025-07-01 09:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Skipping force checkin old handles as it is disabled
+[INFO ] 2025-07-01 09:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 0
+[INFO ] 2025-07-01 09:01:03 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 0).
+[INFO ] 2025-07-01 09:01:54 [com.cadence.softshare.service.LmApi] [Thread-4] - CheckInAll started ....
+[INFO ] 2025-07-01 09:01:54 [com.cadence.softshare.service.LmApi] [Thread-4] - Check-in of Integrated_Metrics_Center with count 1 was successful.
+[INFO ] 2025-07-01 09:01:54 [com.cadence.softshare.service.LmApi] [Thread-4] - CheckInAll completed (time 1).
+[INFO ] 2025-07-01 15:48:27 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - LmApi Version = SftShrDevJava20.01-p001
+[INFO ] 2025-07-01 15:48:27 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - FlexNet Java Tool-Kit Version = 11.16
+[INFO ] 2025-07-01 15:48:27 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Begin parsing license server path configuration
+[INFO ] 2025-07-01 15:48:27 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Successfully parsed license server path configuration. License server path = 5280@10.19.32.90
+[INFO ] 2025-07-01 15:48:27 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Recheck started ....
+[INFO ] 2025-07-01 15:48:27 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Minimum recheck interval has elapsed. Will be doing a real recheck
+[INFO ] 2025-07-01 15:48:27 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - lmiFailureCount = 0
+[INFO ] 2025-07-01 15:48:27 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] -   Time spent in server Recheck was 1
+[INFO ] 2025-07-01 15:48:27 [com.cadence.softshare.service.LmApi] [shared-license-bridge-recheck-timer] - Re-check completed with status 0 (time 1).
+[INFO ] 2025-07-01 15:48:28 [com.cadence.softshare.service.LmApi] [main] - Check-out (Increment) started ....
+[INFO ] 2025-07-01 15:48:28 [com.cadence.softshare.service.LmApi] [main] - Checkout request received for 1 count of Integrated_Metrics_Center 22.0with queue mode = 0
+[INFO ] 2025-07-01 15:48:28 [com.cadence.softshare.service.LmApi] [main] - Skipping handle setting for the checkout as it is disabled
+[INFO ] 2025-07-01 15:48:28 [com.cadence.softshare.service.LmApi] [main] - Check-out (Increment) completed with status 0 (time 131).
+[INFO ] 2025-07-01 15:48:28 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 34093
+[INFO ] 2025-07-01 15:48:34 [com.cadence.softshare.service.LmApi] [Thread-4] - CheckInAll started ....
+[INFO ] 2025-07-01 15:48:34 [com.cadence.softshare.service.LmApi] [Thread-4] - Check-in of Integrated_Metrics_Center with count 1 was successful.
+[INFO ] 2025-07-01 15:48:34 [com.cadence.softshare.service.LmApi] [Thread-4] - CheckInAll completed (time 2).
